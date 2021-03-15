@@ -1,0 +1,21 @@
+section h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+div.contato{
+    text-align: center;
+}
+div.contato img{
+    width: 10%;
+}
+div.contato p{
+    display: inline;
+}
+
+div.escreva{
+    text-align: center;
+}
+div.escreva h1{
+    font-size: 24px;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+    background-color: rgb(211, 211, 211);
+}
+
+header{
+    background-color: rgb(17,170,244);
+    width: 100%;
+    text-align: center;
+    margin:0 0 0 0;
+    
+}
+div.Navegação{
+    width: 80%;
+    margin: 0px auto;
+    height: 70px;
+    background-color:white;
+    list-style: none;
+    display: flex;
+    border-radius: 20px;
+}
+div.Navegação a{
+    text-decoration: none;
+    margin: auto;
+    width: 25%;
+    font-weight: bold;
+    color:rgb(17,170,244);    
+}
+img.Logo{
+    width: 20%;
+}
+footer{
+    background-color: rgb(17,170,244);
+    text-align: center;
+}
+img.rodape{
+    width: 25%;
+}

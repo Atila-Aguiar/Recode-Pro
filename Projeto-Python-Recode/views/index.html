@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+<body>
+    <div class="container border p-4">
+        <h1 class="display-4">Calculadora</h1>
+        <hr />
+
+        <form action="" method="POST">
+            <input class="form-control my-2" type="number" placeholder="Digite um número..." name="num1" />
+            <input class="form-control my-2" type="number" placeholder="Digite um número..." name="num2" />
+
+            <input type="radio" id="som" name="operador" value="som">
+            <label for="soma">Soma</label><br>
+            <input type="radio" id="sub" name="operador" value="sub">
+            <label for="sub">Subtração</label><br>
+            <input type="radio" id="mul" name="operador" value="mul">
+            <label for="mul">Multiplicação</label><br>
+            <input type="radio" id="div" name="operador" value="div">
+            <label for="div">Divisão</label><br>
+            <input type="radio" id="res" name="operador" value="res">
+            <label for="res">Resto da Divisão</label><br>
+
+            
+            <button type="submit" class="btn btn-warning">Ver Resultado</button>
+            <button type="reset" class="btn btn-secondary">Limpar Campos</button>
+        </form>
+    </div>
+
+    <div class="container border p-4">
+        <h1 class="display-4">Juros Simples</h1>
+        <hr />
+
+        <form action="JurosSimples" method="POST">
+            <input class="form-control my-2" type="number" placeholder="Valor Inicial" name="val" />
+            <input class="form-control my-2" type="number" placeholder="Porcentagem 1~100" name="porc" />
+            <input class="form-control my-2" type="number" placeholder="Tempo em meses " name="temp" />
+            
+            <button type="submit" class="btn btn-warning">Aplicar Juros</button>
+            <button type="reset" class="btn btn-secondary">Limpar Campos</button>
+        </form>
+    </div>
+
+    <div class="container border p-4">
+        <h1 class="display-4">Juros Composto</h1>
+        <hr />
+
+        <form action="JurosComposto" method="POST">
+            <input class="form-control my-2" type="number" placeholder="Valor Inicial" name="val" />
+            <input class="form-control my-2" type="number" placeholder="Porcentagem 1~100" name="porc" />
+            <input class="form-control my-2" type="number" placeholder="Tempo em meses " name="temp" />
+            
+            <button type="submit" class="btn btn-warning">Aplicar Juros</button>
+            <button type="reset" class="btn btn-secondary">Limpar Campos</button>
+        </form>
+    </div>
+    
+</body>
+</html>

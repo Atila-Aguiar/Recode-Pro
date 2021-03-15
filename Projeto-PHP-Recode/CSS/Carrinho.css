@@ -1,0 +1,19 @@
+section{
+    width: 90%;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+}
+table th{
+    background-color: rgb(1, 117, 1);
+}
+img.produto{
+    width: 130px;
+    height: 130px;
+}
+input.inv{
+    display: none;
+}

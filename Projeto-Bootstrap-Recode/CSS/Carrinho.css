@@ -1,0 +1,12 @@
+table{
+    margin: auto 0;
+    background: white;
+    text-align: center;
+}
+img.produto{
+    width: 130px;
+    height: 130px;
+}
+input.inv{
+    display: none;
+}

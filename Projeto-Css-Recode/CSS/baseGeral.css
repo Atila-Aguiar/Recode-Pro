@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    text-align: center;
+    
+}
+div.Navegação{
+    width: 80%;
+    margin: 0px auto;
+    height: 70px;
+    background-color: red;
+    list-style: none;
+    display: flex;
+    border-radius: 20px;
+}
+div.Navegação a{
+    text-decoration: none;
+    margin: auto;
+    width: 25%;
+    color:white;
+    
+}
+img.Logo{
+    width: 20%;
+}
+footer{
+    text-align: center;
+}
+img.rodape{
+    width: 25%;
+}

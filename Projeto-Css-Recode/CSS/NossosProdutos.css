@@ -1,0 +1,43 @@
+section{
+    display: flex;
+}
+aside{
+    width: 17%;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgba(41,41,41,0.3);
+    margin-right: 5px;
+}
+main{
+    width: 80%;
+}
+div.principal{
+    display: flex;
+}
+div.produto{
+    flex: 1;
+    align-self: flex-end;
+    margin:1px;
+    background-color: white;
+    border: 1px;
+    border-radius: 5px;
+    border-style:solid ;
+    text-align: center;
+    width: 25%;
+}
+div.produto img{
+    width: 130px;
+}
+p.info{
+    height: 90px;
+    font-size: 16px;
+    margin:0px;
+}
+p.promo{
+    font-size: 16px;
+    margin:0px;
+}
+p.preço{
+    font-size: 24px;
+    margin:0px;
+}
